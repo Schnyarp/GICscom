@@ -1,0 +1,12 @@
+# robots.txt for GICs.com
+# This file is to manage access for web crawlers and bots.
+
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /scripts/
+Disallow: /temp/
+Allow: /
+
+# Sitemap Location
+Sitemap: https://www.gics.com/sitemap.xml
